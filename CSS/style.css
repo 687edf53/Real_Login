@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins";
+}
+
+.container {
+  padding: 0 2rem;
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    border-radius: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    height: 100vh;
+    padding: 0 !important;
+  }
+}
+@media (min-width: 767px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (min-width: 1199px) {
+  .container {
+    width: 1200px;
+  }
+}
+.form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form .container {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid orangered;
+  padding: 30px;
+  background: linear-gradient(to right, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.form .login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.form .login-container input, textarea {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #f67a51;
+  border-radius: 5px;
+  outline: none;
+  position: relative;
+  font-weight: 600;
+  margin-top: -18px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.form .login-container input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #777;
+  letter-spacing: 1px;
+}
+.form .login-container input::placeholder, textarea::placeholder {
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.form .login-container label {
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.form .login-container input:focus,
+.form .login-container input:hover,
+.form .login-container textarea:focus,
+.form .login-container textarea:hover {
+  border-color: #fe561d;
+}
+
+.form .login-container button {
+  width: 300px;
+  font-size: 20px;
+  background-color: #f83e44;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form .login-container button:hover {
+  background-color: #c11e23;
+}/*# sourceMappingURL=style.css.map */
