@@ -53,9 +53,8 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 10px;
-  border: 1px solid orangered;
+  border: 1px solid #0080ff;
   padding: 30px;
-  background: linear-gradient(to right, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
 }
 
 .form .login-container {
@@ -70,7 +69,7 @@ body {
 .form .login-container input, textarea {
   padding: 10px;
   width: 300px;
-  border: 2px solid #f67a51;
+  border: 2px solid #0080ff;
   border-radius: 5px;
   outline: none;
   position: relative;
@@ -97,13 +96,13 @@ body {
 .form .login-container input:hover,
 .form .login-container textarea:focus,
 .form .login-container textarea:hover {
-  border-color: #fe561d;
+  border-color: #0154a8;
 }
 
 .form .login-container button {
   width: 300px;
   font-size: 20px;
-  background-color: #f83e44;
+  background-color: #004d9a;
   color: white;
   border-radius: 20px;
   padding: 10px;
@@ -113,5 +112,5 @@ body {
 }
 
 .form .login-container button:hover {
-  background-color: #c11e23;
+  background-color: #0062c5;
 }/*# sourceMappingURL=style.css.map */
