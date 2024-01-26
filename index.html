@@ -10,15 +10,18 @@
       emailjs.init("qHgma6Ay5qIMyMKDt");
     })();
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="CSS/style.css">
-  <title>Login form</title>
+  <title>Send form</title>
 </head>
 <body>
   
   <!-- Start Form -->
   <div class="form">
     <div class="container">
-      <h1>Log in</h1>
+      <h1>Send Your Request</h1>
       <div class="login-container">
         <label for="username">Username</label>
         <input type="text" id="username" placeholder="Username" class="username">
@@ -26,7 +29,7 @@
         <input type="email" id="email" placeholder="Email" class="email">
         <label for="message">Massege</label>
         <textarea id="message" placeholder="Write Your Request..." class="message" rows="5"></textarea>
-        <button id="submit" class="submit" onclick="sendMail()">Login</button>
+        <button id="submit" class="submit" onclick="sendMail()">Send</button>
       </div>
     </div>
   </div>

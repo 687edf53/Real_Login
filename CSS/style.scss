@@ -7,10 +7,12 @@
 }
 body {
   height: 100vh;
-  font-family: "Poppins";
+  font-family: "Open Sans", sans-serif;
+  background: url('../images/Awesome-Blue-Rain-ipad-air.jpg') no-repeat;
+  background-size: cover;
 }
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
   margin: 0 auto;
   width: 1200px;
   max-width: 100%;
@@ -53,7 +55,10 @@ body {
   width: fit-content;
   border-radius: 10px;
   border: 1px solid #0080ff;
+  box-shadow: 0 0 20px #0080ff;
   padding: 30px;
+  background: rgb(0 0 0 / 20%);
+  color: white;
 }
 .form .login-container {
   display: flex;
@@ -73,6 +78,7 @@ body {
   &::placeholder {
     color: #777;
     letter-spacing: 1px;
+    font-family: "Open Sans"
   };
   font-weight: 600;
   margin-top: -18px;

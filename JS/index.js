@@ -1,5 +1,5 @@
 function sendMail() {
-  if (document.getElementById('username').value != '') {
+  if (document.getElementById('username').value != '' && document.getElementById('email').value != '' && document.getElementById('message').value != '') {
     var params = {
       name: document.getElementById('username').value,
       email: document.getElementById('email').value,
