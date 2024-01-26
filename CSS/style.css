@@ -84,16 +84,15 @@ body {
   margin-top: -18px;
   font-size: 18px;
   transition: 0.2s;
+  font-family: "Open Sans";
 }
 .form .login-container input::-moz-placeholder, textarea::-moz-placeholder {
   color: #777;
   letter-spacing: 1px;
-  font-family: "Open Sans";
 }
 .form .login-container input::placeholder, textarea::placeholder {
   color: #777;
   letter-spacing: 1px;
-  font-family: "Open Sans";
 }
 
 .form .login-container label {
